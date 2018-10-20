@@ -19,8 +19,7 @@ const rootQueryType = new GraphQLObjectType({
 
 const ncSchema = new GraphQLSchema({
     query: rootQueryType
+    // ... mutation
 });
 
-module.export = {
-    ncSchema
-};
+module.exports = ncSchema;
